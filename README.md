@@ -1,2 +1,3 @@
-# ATOC-IDL-seminar
-Programs, data, and slides used in the 2015-01-29 ATOC IDL seminar
+# ATOC IDL seminar
+
+These are the programs, data, and slides used in the ATOC IDL seminar on 2015-01-29.
