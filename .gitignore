@@ -1,3 +1,5 @@
 # Emacs files
 *~
 
+# NetCDF files
+*.nc
