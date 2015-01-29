@@ -18,7 +18,7 @@
 ;   a time series of a month of daily 500 mb heights.
 ;   
 ; :requires:
-;  IDL 8.1
+;  IDL 8.2.1
 ;
 ; :examples:
 ;  Try the example main program included in this file with::
@@ -52,7 +52,7 @@ pro view_20thcenheights, make_movie=make_movie
    g_heights = contour(d['hgt',*,*,0], d['lon'], d['lat'], $
       overplot=m, $
       c_value=levels, $
-      rgb_table=39, $
+      rgb_table=colortable(72, /reverse), $
       grid_units='degrees', $
       /fill, $
       transparency=20)
