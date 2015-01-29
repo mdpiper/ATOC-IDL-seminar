@@ -3,3 +3,6 @@
 
 # NetCDF files
 *.nc
+
+# IDL files
+.project
