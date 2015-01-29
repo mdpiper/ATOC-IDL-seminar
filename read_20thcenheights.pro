@@ -62,7 +62,7 @@ function read_20thcenheights, file
    i_missing = where(abs(vars['hgt'] - atts['missing_value']) le tol, /null)
    vars['hgt', i_missing] = !values.f_nan 
    
-   ; Remove the spurious time dimension from the hgt data.
+   ; Remove the spurious level dimension from the hgt data.
    vars['hgt'] = reform(vars['hgt'])
    
    ; Return the variables in a hash.
